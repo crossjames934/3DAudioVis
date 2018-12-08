@@ -6,10 +6,18 @@
     <style>
         body {
             margin: 0;
+            background: black;
+        }
+
+        #invisible {
+            position: fixed;
+            opacity: 0;
+            pointer-events: none;
         }
     </style>
 </head>
 <body>
+    <div id="invisible"></div>
     <div id="container"></div>
     <script src="p5.js"></script>
     <script src="p5.sound.js"></script>
@@ -17,6 +25,7 @@
     <script src="OrbitControls.js"></script>
     <script src="setupThreeWorld.js"></script>
     <script src="shapes.js"></script>
+    <script src="music.js"></script>
     <script src="render.js"></script>
 </body>
 </html>

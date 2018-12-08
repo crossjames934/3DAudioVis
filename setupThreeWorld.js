@@ -26,9 +26,9 @@ const camera =
     );
 
 // ORBIT CONTROLS
-// let controls = new THREE.OrbitControls( camera );
-// controls.autoRotate = true;
-// controls.autoRotateSpeed = 8;
+let controls = new THREE.OrbitControls( camera );
+controls.autoRotate = true;
+controls.autoRotateSpeed = 8;
 
 const scene = new THREE.Scene();
 
